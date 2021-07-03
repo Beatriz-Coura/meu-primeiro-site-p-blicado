@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(217, 230, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 25px;
+    padding: 0px;
+}
+
+header{
+    text-align: center;
+    animation-name:piscar-e-rodar;
+    margin-top:0px;
+    padding-top:2%;
+    animation-name:piscar-e-rodar;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+    font-family:'Times New Roman';
+}
+@keyframes piscar-e-rodar {
+    
+    0%{color: rgb(217, 230, 255);}
+    10%{color: rgb(219, 227, 255);}
+    20%{color: rgb(182, 199, 255);}
+    30%{color: rgb(132, 172, 247);}
+    60%{color: rgb(111, 136, 250);}
+    80%{color: rgb(76, 63, 253);}
+    100%{color: rgb(89, 100, 255);}
+    }
+    
